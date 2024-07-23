@@ -18,7 +18,16 @@ Note: the --ulimit flag was used to help dependency install performance on my ma
 
 ### Step 3: Start Container
 
-First launch the docker engine, then run this command to start the container and vcs:
+First launch the docker engine, then run this command to start the container and VNC:
 ```
 docker run -p 5901:5901 -p 6080:6080 go2-ros2
 ```
+
+Use a VNC client to connect to `localhost:5901`
+
+OR 
+
+Open a web browser and go to `http://localhost:6080/vnc.html`
+
+
+
