@@ -3,8 +3,8 @@ Dockerfile built to support the use of https://github.com/abizovnuralem/go2_ros2
 
 ## Usage
 
-# Step 1: Install Docker 
+### Step 1: Install Docker 
 https://docs.docker.com/engine/install/
 
 
-# Step 2: Clone this repo
+### Step 2: Clone this repo
