@@ -7,9 +7,10 @@ Dockerfile built to support the use of https://github.com/abizovnuralem/go2_ros2
 https://docs.docker.com/engine/install/
 
 
-### Step 2: Clone this repo
+### Step 2: Clone this repository and build the docker container
 ```
 git clone https://github.com/BenCaunt/Unitree-Go2-Dockerfile.git
 cd Unitree-Go2-Dockerfile/
+
 ```
 
