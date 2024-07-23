@@ -31,5 +31,8 @@ OR
 
 Open a web browser and go to `http://localhost:6080/vnc.html`
 
+### Architecture Considerations 
+This project has been tested on Arm64 (Apple Silicon) systems only so far, if it successfully builds on x86 please let me know and I will update this! 
+
 
 
