@@ -23,6 +23,8 @@ First launch the docker engine, then run this command to start the container and
 docker run -p 5901:5901 -p 6080:6080 go2-ros2
 ```
 
+### Gain access to the desktop enviornment
+
 Use a VNC client to connect to `localhost:5901`
 
 OR 
