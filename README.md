@@ -23,13 +23,25 @@ First launch the docker engine, then run this command to start the container and
 docker run -p 5901:5901 -p 6080:6080 go2-ros2
 ```
 
-### Gain access to the desktop enviornment
+### Step 4: Gain access to the desktop enviornment
 
 Use a VNC client to connect to `localhost:5901`
 
 OR 
 
 Open a web browser and go to `http://localhost:6080/vnc.html`
+
+### Step 5: Follow Steps from the original repository
+
+```
+source install/setup.bash
+export ROBOT_IP="robot_ip"
+export CONN_TYPE="webrtc"
+ros2 launch go2_robot_sdk robot.launch.py
+```
+
+Complete info can be found here
+https://github.com/abizovnuralem/go2_ros2_sdk
 
 ### Architecture Considerations 
 This project has been tested on Arm64 (Apple Silicon) systems only so far, if it successfully builds on x86 please let me know and I will update this! 
