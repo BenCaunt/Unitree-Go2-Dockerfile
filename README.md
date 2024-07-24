@@ -20,7 +20,7 @@ Note: the --ulimit flag was used to help dependency install performance on my ma
 
 First launch the docker engine, then run this command to start the container and VNC:
 ```
-docker run -p 5901:5901 -p 6080:6080 go2-ros2
+docker run -p 5901:5901 -p 6080:6080 unitree-go2-dockerfile
 ```
 
 ### Step 4: Gain access to the desktop enviornment
