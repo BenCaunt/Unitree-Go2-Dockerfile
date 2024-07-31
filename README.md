@@ -31,7 +31,7 @@ OR
 
 Open a web browser and go to `http://localhost:6080/vnc.html`
 
-### Step 5: Follow Steps from the original repository
+### Step 5: Follow Steps from the original repository (Terminal INSIDE container)
 
 ```
 source install/setup.bash
